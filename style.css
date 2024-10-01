@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #e7dcdc;
+}
+
+ /* header Style */
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    align-items: center;
+}
+
+header h2{
+   color: white;
+}
+
+header .items ul{
+    display: flex;
+    gap: 10px;
+}
+
+header .items ul li{
+    list-style-type: none;
+}
+
+header .items ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+header .button button{
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ed36ad;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Hire Me Section */
+#hireme .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 100%;
+}
+
+#hireme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    margin: 0px auto;
+    gap: 30px;
+}
+
+#hireme p{
+    font-size: 23px;
+    width: 750px;
+    text-align: center;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.507);;
+}
+
+#hireme .hireme-button button{
+    padding: 8px;
+    font-size: 17px;
+    color: #007bff;
+    background-color: white;
+    border: 1px solid #007bff;
+    border-radius: 20px;
+    width: 90px;
+    cursor: pointer;
+}
+
+/* General Styles */
+.line{
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(179, 176, 176);
+}
+
+main{
+    width: 80vw;
+}
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+}
+
+/* Work Experience Section */
+.work-exp-head h1{
+    text-align: center;
+    margin: 65px 0px;
+}
+
+.work-exp .job-rol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-exp{
+    margin-top: 30px;
+}
+
+.work-exp .job-rol p{
+    color: gray;
+}
+
+.work-exp .company-name{
+    background-color: blue;
+    display: inline-block;
+    padding: 2px 4px 2px 4px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.work-exp .about-company p{
+    color: rgb(189, 181, 181);
+    font-size: 19px;
+    margin-top: 14px;
+
+}
+
+.work-exp .about-company{
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+.education-head h1{
+    text-align: center;
+    margin: 65px ;
+}
+
+.education p{
+    color: rgb(5, 4, 4);
+    margin: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Skills Section */
+.skills-head h1{
+    text-align: center;
+    margin: 65px ;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+    margin: 40px 20px 40px 20px;
+}
+
+.skills ul li {
+    background-color: #e0f7fa; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+/* Hobbies Section */
+.hobbies-head h1{
+    text-align: center;
+    margin: 65px 0;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+    margin: 40px 20px 40px 20px;
+}
+
+.hobbies ul li {
+    background-color: #ffebee; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #201c1c;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+}
+
+footer p {
+    margin: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
